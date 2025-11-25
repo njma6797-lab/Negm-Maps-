@@ -1,0 +1,13 @@
+[
+  {"code":"EG","country":"Egypt","emergency":{"police":"122","ambulance":"123","fire":"180"}},
+  {"code":"US","country":"United States","emergency":{"all":"911"}},
+  {"code":"SA","country":"Saudi Arabia","emergency":{"police":"999","ambulance":"997","fire":"998"}},
+  {"code":"AE","country":"United Arab Emirates","emergency":{"police":"999","ambulance":"998","fire":"999"}},
+  {"code":"GB","country":"United Kingdom","emergency":{"all":"999"}},
+  {"code":"FR","country":"France","emergency":{"all":"112"}},
+  {"code":"DE","country":"Germany","emergency":{"all":"112"}},
+  {"code":"IN","country":"India","emergency":{"police":"100","ambulance":"102","fire":"101"}},
+  {"code":"CA","country":"Canada","emergency":{"all":"911"}},
+  {"code":"AU","country":"Australia","emergency":{"all":"000"}},
+  {"code":"IT","country":"Italy","emergency":{"all":"112"}}
+]
