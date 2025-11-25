@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+  font-family: sans-serif;
+}
+
+/* شاشة الترحيب */
+#welcome-screen {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle, #0f0 5%, #000 90%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-out;
+  z-index: 9999;
+  cursor: pointer;
+}
+#welcome-screen h1 {
+  text-shadow: 0 0 15px #0f0;
+}
+#welcome-screen p {
+  font-size: 16px;
+  opacity: .8;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#map {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* صندوق الطوارئ */
+#emergency-box {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+}
+
+#callEmergency {
+  background: linear-gradient(135deg, #ff0000, #880000);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 0 20px #ff0000;
+}
